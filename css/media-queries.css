@@ -1,0 +1,14 @@
+/* makes a two column-layout instead of four columns */
+@media screen and (max-width: 950px) {
+    .photo-column {
+      max-width: 50%;
+      flex: 40%; /* less than 50% leaves room for padding */
+    }
+  }
+/* makes columns stack in one column on mobile view */
+@media screen and (max-width: 491px) {
+   .photo-column {
+    max-width: 100%;
+    flex: 100%;
+    }
+  }

@@ -1,0 +1,20 @@
+  .container {
+    position: relative;
+    width: 1440px;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+
+  .photo-display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .photo-column {
+    max-width: 24%; /* 24% of container leaves room for margin on columns */
+    margin: 0 .25rem; /* space between columns */
+  }
+  .photo-column img {  
+    width: 100%;
+    margin-top: .5rem; /* vertical space between photos */
+  }
